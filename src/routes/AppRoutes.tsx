@@ -6,6 +6,7 @@ import { LoginPage } from '../pages/LoginPage';
 import { CriarContaPage } from '../pages/CriarContaPage';
 import { RecuperarSenhaPage } from '../pages/RecuperarSenhaPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
+import { GerenciamentoComponentesCurriculares } from '../pages/coordenador/GerenciamentoComponentesCurriculares';
 
 export const AppRoutes: React.FC = () => {
   return <Routes>
@@ -27,6 +28,7 @@ export const AppRoutes: React.FC = () => {
               <h1>Usuários do Coordenador</h1>
               <p>Esta página está em construção.</p>
             </div>} />
+        <Route path="coordenador/componentes-curriculares" element={<GerenciamentoComponentesCurriculares/>} />
         {/* Rotas do Professor */}
         <Route path="professor/dashboard" element={<div className="prose dark:prose-invert">
               <h1>Dashboard do Professor</h1>

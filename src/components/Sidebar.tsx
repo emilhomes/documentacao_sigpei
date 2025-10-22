@@ -70,6 +70,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
               <NavItem to="/coordenador/dashboard" icon={<></>} label="Dashboard" />
               <NavItem to="/coordenador/projetos" icon={<></>} label="Projetos" />
               <NavItem to="/coordenador/usuarios" icon={<></>} label="Usuários" />
+              <NavItem to="/coordenador/componentes-curriculares" icon={<></>} label="Componentes Curriculares" />
             </ExpandableNavItem>
 
             <ExpandableNavItem icon={<FiUsers />} label="Acesso do Professor">

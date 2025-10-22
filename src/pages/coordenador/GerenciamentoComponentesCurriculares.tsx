@@ -1,7 +1,9 @@
-export default function GerenciamentoComponentesCurriculares() {
+import React from 'react';
+
+export const GerenciamentoComponentesCurriculares: React.FC = () => {
   return (
     <div className="componentes-curriculares-container">
-      <h1>Gerenciamento de Componentes Curriculares</h1>
+      <h1 className="text-[2.4rem]">Gerenciamento de Componentes Curriculares</h1>
       <p>
         Este fluxo descreve como um Coordenador adiciona disciplinas (componentes
         curriculares) aos níveis de ensino e como gerencia o plano curricular de
