@@ -11,8 +11,20 @@ export const GerenciamentoNiveisEnsino: React.FC = () => {
 
         <ol>
             <li>No painel do coordenador, clique em "Níveis de Ensino".</li>
+            <img 
+            src="/imgs/coordenador/gerenciamento-ensino/opc-niveis-ensino.png" 
+            alt="" 
+            />
             <li>Na tela "Níveis de Ensino", clique em "Criar Nível de Ensino".</li>
+            <img 
+            src="/imgs/coordenador/gerenciamento-ensino/botao-criar-nivel.png" 
+            alt="" 
+            />
             <li>Uma janela "Novo Nível de Ensino" é aberta.</li>
+            <img 
+            src="/imgs/coordenador/gerenciamento-ensino/janela-novo-nivel-ensino.png" 
+            alt="" 
+            />
             <li>
             O coordenador deve preencher os campos: Nível de Ensino, Ano
             Escolaridade e Turma.
