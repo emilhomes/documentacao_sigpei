@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function GerenciamentoProfessores() {
+export const GerenciamentoProfessores: React.FC = () => {
   return (
     <div className="gerenciamento-professores-container">
       <h1>Gerenciamento de Professores</h1>

@@ -71,6 +71,10 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
               <NavItem to="/coordenador/projetos" icon={<></>} label="Projetos" />
               <NavItem to="/coordenador/usuarios" icon={<></>} label="Usuários" />
               <NavItem to="/coordenador/componentes-curriculares" icon={<></>} label="Componentes Curriculares" />
+              <NavItem to="/coordenador/niveis-ensino" icon={<></>} label="Níveis de Ensino" />
+              <NavItem to="/coordenador/gerenciamento-professores" icon={<></>} label="Gerenciamento de Professores" />
+              <NavItem to="/coordenador/salas-recursos" icon={<></>} label="Gerenciamento de Salas de Recursos Especiais" />
+              <NavItem to="/coordenador/vincular-aluno" icon={<></>} label="Vincular Aluno ao Profissional" />
             </ExpandableNavItem>
 
             <ExpandableNavItem icon={<FiUsers />} label="Acesso do Professor">

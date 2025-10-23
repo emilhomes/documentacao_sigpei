@@ -1,4 +1,6 @@
-export default function VincularAlunoProfissional() {
+import React from 'react';
+
+export const VincularAlunoProfissional: React.FC = () => {
   return (
     <div className="vincular-aluno-container">
       <h1>Vincular Aluno ao Profissional</h1>

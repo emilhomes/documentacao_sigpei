@@ -1,4 +1,6 @@
-export default function GerenciamentoSalasRecursos() {
+import React from 'react';
+
+export const GerenciamentoSalasRecursos: React.FC = () => {
   return (
     <div className="salas-recursos-container">
       <h1>Gerenciamento de Salas de Recursos</h1>
