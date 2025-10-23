@@ -11,9 +11,25 @@ export const GerenciamentoSalasRecursos: React.FC = () => {
 
       <ol>
         <li>No painel do coordenador, clique em "Salas de Recursos".</li>
+        <img 
+            src="/imgs/coordenador/gerenciamento-salas/opc-sala-recursos.png" 
+            alt="" 
+        />
         <li>Na tela "Sala de Recursos", clique em "Nova Sala".</li>
+        <img 
+            src="/imgs/coordenador/gerenciamento-salas/btn-nova-sala.png" 
+            alt="" 
+        />
         <li>Uma janela "Nova Sala de Recurso" irá aparecer e solicitará o nome da sala.</li>
+        <img 
+            src="/imgs/coordenador/gerenciamento-salas/janela-nova-sala.png" 
+            alt="" 
+        />
         <li>Após preencher e salvar, a sala é criada com sucesso e aparece na lista.</li>
+        <img 
+            src="/imgs/coordenador/gerenciamento-salas/lista.png" 
+            alt="" 
+        />
         <li>
           Após a sala ser listada, o coordenador poderá fazer algumas alterações:
           <ul>
@@ -31,6 +47,10 @@ export const GerenciamentoSalasRecursos: React.FC = () => {
               AEE. Após salvar, o aluno é vinculado com sucesso e listado na
               página da sala.
             </li>
+            <img 
+            src="/imgs/coordenador/gerenciamento-salas/ver-detalhes.png" 
+            alt="" 
+            />
           </ul>
         </li>
       </ol>
