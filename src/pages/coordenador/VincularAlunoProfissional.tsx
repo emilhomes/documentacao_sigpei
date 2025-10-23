@@ -12,8 +12,20 @@ export const VincularAlunoProfissional: React.FC = () => {
 
       <ol>
         <li>No painel coordenador, selecione a opção "Alunos"</li>
+        <img 
+        src="/imgs/coordenador/vincular-aluno/pagina-alunos.png" 
+        alt="" 
+        />
         <li>Clique no botão "Criar/Vincular Aluno".</li>
+        <img 
+        src="/imgs/coordenador/vincular-aluno/botao-criar-vinculo.png" 
+        alt="" 
+        />
         <li>Digite o CPF do aluno e clique no botão "Buscar CPF".</li>
+        <img 
+        src="/imgs/coordenador/vincular-aluno/buscar-cpf.png" 
+        alt="" 
+        />
         <li>
           O sistema irá tratar quatro cenários:
           <ul>
@@ -24,21 +36,37 @@ export const VincularAlunoProfissional: React.FC = () => {
               caracterização. Ao salvar, o aluno aparecerá na lista de alunos
               vinculados à escola.
             </li>
+            <img 
+            src="/imgs/coordenador/vincular-aluno/vincular-aluno.png" 
+            alt="" 
+            />
             <li>
               <strong>4.2. Aluno já vinculado:</strong> Se o aluno já possui um
               PEI vinculado à escola e ano letivo atuais, o sistema informa que é
               necessário desvincular primeiro para cadastrá-lo novamente.
             </li>
+            <img 
+            src="/imgs/coordenador/vincular-aluno/aluno-vinculado.png" 
+            alt="" 
+            />
             <li>
               <strong>4.3. Aluno Vinculado (Sem Escola):</strong> Se o aluno já
               possui um PEI para o ano, mas não está vinculado a nenhuma escola,
               o sistema oferece a opção de vinculá-lo clicando em "Continuar"
             </li>
+            <img 
+            src="/imgs/coordenador/vincular-aluno/aluno-vinculado-sem-escola.png" 
+            alt="" 
+            />
             <li>
               <strong>4.4. Aluno Vinculado (Outra Escola):</strong> Se o aluno
               existe, mas está vinculado a outra escola, o sistema pergunta se
               deseja vincular agora e criar o PEI correspondente.
             </li>
+            <img 
+            src="/imgs/coordenador/vincular-aluno/aluno-vinculado-outra-escola.png" 
+            alt="" 
+            />
           </ul>
         </li>
         <li>
@@ -51,15 +79,31 @@ export const VincularAlunoProfissional: React.FC = () => {
               remover o vínculo do aluno com a escola para aquele ano letivo. Uma
               mensagem de sucesso confirma a desvinculação.
             </li>
+            <img 
+            src="/imgs/coordenador/vincular-aluno/desvincular.png" 
+            alt="" 
+            />
             <li>
               <strong>5.2. Ver Detalhes:</strong> Ao clicar no nome do aluno,
               leva a página "Dados do Aluno".
             </li>
+            <img 
+            src="/imgs/coordenador/vincular-aluno/ver-detalhes.png" 
+            alt="" 
+            />
             <li>
               <strong>5.3. Editar/Excluir:</strong> Na página dos dados do aluno o
               coordenador pode "Editar" os dados do aluno em um formulário ou
               "Excluir" o aluno do sistema, mediante confirmação.
             </li>
+            <img 
+            src="/imgs/coordenador/vincular-aluno/editar.png" 
+            alt="" 
+            />
+            <img 
+            src="/imgs/coordenador/vincular-aluno/excluir.png" 
+            alt="" 
+            />
           </ul>
         </li>
       </ol>
